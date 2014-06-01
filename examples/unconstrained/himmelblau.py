@@ -39,7 +39,7 @@ def main():
             fprime=functools.partial(eval_grad, himmelblau),
             fhess=functools.partial(eval_hess, himmelblau),
             )
-    print results
+    print(results)
 
 if __name__ == '__main__':
     main()

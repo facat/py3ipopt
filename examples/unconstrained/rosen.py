@@ -18,7 +18,7 @@ def main():
             fprime=scipy.optimize.rosen_der,
             fhess=scipy.optimize.rosen_hess,
             )
-    print results
+    print(results)
 
 if __name__ == '__main__':
     main()

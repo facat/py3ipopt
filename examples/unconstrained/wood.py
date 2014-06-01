@@ -45,7 +45,7 @@ def main():
             fprime=functools.partial(eval_grad, wood),
             fhess=functools.partial(eval_hess, wood),
             )
-    print results
+    print(results)
 
 if __name__ == '__main__':
     main()

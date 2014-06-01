@@ -744,7 +744,7 @@ static PyMethodDef ipoptMethods[] = {
           ob = Py_InitModule3(name, methods, doc);
 #endif
 
-MOD_INIT(pyipopt)
+MOD_INIT(pyipoptcore)
 {
     PyObject * m;
     /* Finish initialization of the problem type */
